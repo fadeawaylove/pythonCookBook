@@ -12,3 +12,7 @@ b = {
 print(a.keys() & b.keys())
 # Find keys in a that are not in b
 print(a.keys() - b.keys())
+# Find key:value in common
+print(a.items() & b.items())
+
+
