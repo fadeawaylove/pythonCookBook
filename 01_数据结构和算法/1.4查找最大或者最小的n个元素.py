@@ -26,18 +26,10 @@ print(heapq.nsmallest(3, portfolio, key=lambda a_dic: a_dic["name"]))
 # 查找唯一的最大或者最小
 
 heap = list(nums)
-heapq.heapify(heap)
+heapq.heapify(heap)  # 将一个list转化为heapq对象
 print(heap)
 
-
-
-
-
-
-
-
-
-
-
-
+# 每次都会弹出最小的那一个
+print(heapq.heappop(heap))
+print(heapq.heappop(heap))
 
